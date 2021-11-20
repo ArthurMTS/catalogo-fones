@@ -12,7 +12,7 @@ export function Product({ info }) {
     <div className='product'>
       <img src={info.image} alt={info.title} />
       <Link to={'/products/' + info.id}>{info.title}</Link>
-      <strong>U$ {info.price}</strong>
+      <strong>R$ {info.price.toFixed(2)}</strong>
       <button onClick={() => addProduct(info)} >Add to Cart</button>
     </div>
   );

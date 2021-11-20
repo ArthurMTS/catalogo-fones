@@ -8,6 +8,8 @@ import { Cart } from './pages/Cart';
 
 import { CartProvider } from './contexts/cart';
 
+import products from './products.json';
+
 import './global.css';
 
 export function App() {
@@ -16,9 +18,8 @@ export function App() {
       <Router>
         <Routes>
           <Route path='/' element= {<Home />} />
-          <Route path='/products' element={<Products />}>
-            <Route path=':id' element={<ProductInfo />} />
-          </Route>
+          <Route path='/products' element={<Products products={products} />} />
+          <Route path='/products/:id' element={<ProductInfo products={products} />} />
           <Route path='/cart' element={<Cart />} />
         </Routes>
       </Router>

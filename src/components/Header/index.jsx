@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { CartContext } from '../../contexts/cart';
 
-import shoppingBag from '../../assets/shopping-bag.svg';
+import headPhone from '../../assets/headphones.svg';
 import shoppingCart from '../../assets/shopping-cart.svg';
 import './styles.css';
 
@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header id='main-header'>
       <Link id='home-link' to='/'>
-        <img src={shoppingBag} alt='bag icon' />
+        <img src={headPhone} alt='bag icon' />
         <h1>BlueFones</h1>
       </Link>
       <nav id='navbar'>

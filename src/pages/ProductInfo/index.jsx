@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
+import { useParams } from 'react-router-dom';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
@@ -6,41 +7,23 @@ import { Footer } from '../../components/Footer';
 import { CartContext } from '../../contexts/cart';
 
 import './styles.css';
-import { Loading } from '../../components/Loading';
 
-export function ProductInfo({ match }) {
-  const [product, setProduct] = useState({});
-
+export function ProductInfo({ products }) {
+  const { id } = useParams();
+  const [ product ] = products.filter(product => product.id === Number(id));
   const { addProduct } = useContext(CartContext);
-
-  useEffect(() => {
-    async function handleRequest() {
-      const { id } = match.params;
-
-      //const result = await api.get(`products/${id}`);
-
-      //setProduct(result.data);
-    }
-
-    //handleRequest();
-  }, [match]);
 
   return (
     <div>
       <Header />
       <main id='product-info'>
-        {
-          product.hasOwnProperty('id') ? 
-            <div>
-              <img id='product-image' src={product.image} alt={product.title} />
-              <p id='title'>{product.title}</p>
-              <span id='category'>{product.category} - Rate: {product.rating ? product.rating.rate : ''}</span>
-              <p id='description'>{product.description}</p>
-              <strong>U$ {product.price}</strong>
-              <button onClick={() => addProduct(product)}>Add to Cart</button>
-            </div> :
-            <Loading />
-        }
+        <img id='product-image' src={product.image} alt={product.title} />
+        <p id='title'>{product.title}</p>
+        <p id='description'>{product.description}</p>
+        <div>cores</div>
+        <span id='branding'>Marca: {product.branding}</span>
+        <strong>R$ {product.price.toFixed(2)}</strong>
+        <button onClick={() => addProduct(product)}>Add to Cart</button>
       </main>
       <Footer />
     </div>

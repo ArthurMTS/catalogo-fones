@@ -17,7 +17,7 @@
   font-size: 26px;
 }
 
-#product-info #category {
+#product-info #branding {
   font-size: 18px;
   font-style: italic;
   color: #222;
@@ -35,7 +35,7 @@
 #product-info button {
   padding: 10px;
   font-size: 18px;
-  background-color: #178f3b;
+  background-color: #1788bd;
   cursor: pointer;
   border: none;
   border-radius: 10px;

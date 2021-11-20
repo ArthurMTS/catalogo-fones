@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Overbeats Pro",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 260,
+    "colors": ["red", "blue", "black", "white"],
+    "image": "https://cdn.shopify.com/s/files/1/0484/7249/0141/products/Carroselmarfim_1024x1024@2x.png?v=1611716044",
+    "branding": "overbeats"
+  },
+  {
+    "id": 2,
+    "title": "Fone de Ouvido Bluetooth Redmi Earbuds Airdots \"S\" - Xiaomi",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 89.70,
+    "colors": ["red", "black", "white"],
+    "image": "https://cdn.shopify.com/s/files/1/0543/3507/8599/products/Capaneutra.png?v=1631375880",
+    "branding": "xiaomi"
+  },
+  {
+    "id": 3,
+    "title": "QCY-BRASIL HT01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 329.90,
+    "colors": ["blue", "black", "white"],
+    "image": "https://cdn.shopify.com/s/files/1/0249/2825/6109/products/Produto1-2_480x480.jpg?v=1625196997",
+    "branding": "qcy-brasil"
+  },
+  {
+    "id": 4,
+    "title": ".Fone de Ouvido Bluetooth Air Dots 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 97.90,
+    "colors": ["black", "white"],
+    "image": "https://cdn.shopify.com/s/files/1/0577/8895/6858/products/3_79ed42c2-2467-47b9-921c-f83797448458_1800x1800.jpg?v=1630348304",
+    "branding": "xiaomi"
+  },
+  {
+    "id": 5,
+    "title": "Fone Ouvido Bluetooth Esportivo Fit Tws20 Preto Oex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 260,
+    "colors": ["black"],
+    "image": "https://http2.mlstatic.com/D_NQ_NP_842264-MLB42031345410_062020-O.webp",
+    "branding": "oex"
+  },
+  {
+    "id": 6,
+    "title": "Fones de ouvido sem fio, NYZ [2021 Atualizados] Fones de ouvido Bluetooth sem fio Hi-Fi Fones de ouvido estéreo no ouvido LED Display Case com Proteçã",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 209,
+    "colors": ["black"],
+    "image": "https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=312897252",
+    "branding": "nyz"
+  },
+  {
+    "id": 7,
+    "title": "Fone Ouvido Bluetooth Esportivo Fit Tws20 Preto Oex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 212.90,
+    "colors": ["red", "black"],
+    "image": "https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1447381193",
+    "branding": "oex"
+  },
+  {
+    "id": 8,
+    "title": "Fone de ouvido in-ear sem fio QCY T1C preto",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 94,
+    "colors": ["black"],
+    "image": "https://http2.mlstatic.com/D_NQ_NP_702477-MLA40812428403_022020-O.webp",
+    "branding": "qcy"
+  },
+  {
+    "id": 9,
+    "title": "Fone de Ouvido Bluetooth com Microfone TWS i7s",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 22.90,
+    "colors": ["black", "white"],
+    "image": "https://i.zst.com.br/thumbs/12/25/12/972123966.jpg",
+    "branding": "tws"
+  },
+  {
+    "id": 10,
+    "title": "Fone Ouvido Bluetooth Headphone Orelha Gatinho Com Led E P2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam risus, placerat a turpis eget, tincidunt hendrerit nunc. Praesent nec justo erat. Vestibulum at purus eros. Pellentesque eget mi dignissim, condimentum sem a, gravida turpis. Maecenas tincidunt ante vel felis sagittis, vel iaculis mi aliquet. Cras tincidunt tempor eros, vel venenatis nisl tristique sed. Donec feugiat mi odio, a dictum mi interdum ac. Integer quis erat leo. Vestibulum ac egestas diam.",
+    "price": 150,
+    "colors": ["pink"],
+    "image": "https://www.oncasebrasil.com.br/wp-content/uploads/2020/11/fonegatinho.png",
+    "branding": "exbom"
+  }
+]

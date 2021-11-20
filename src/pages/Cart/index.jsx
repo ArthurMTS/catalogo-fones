@@ -24,7 +24,7 @@ export function Cart() {
               <li key={product.id} className='cart-item'>
                 <Link to={'/products/' + product.id}>{product.title}</Link>
                 <div>
-                  <strong>U$ {(product.price * product.quantity).toFixed(2)}</strong>
+                  <strong>R$ {(product.price * product.quantity).toFixed(2)}</strong>
                   <input type='number' min='1' value={product.quantity} onChange={(e) => changeQuantity(product.id, e.target.value)} />
                   <button onClick={() => removeProduct(product.id)}>
                     <img src={trashIcon} alt='Trash Icon' />
