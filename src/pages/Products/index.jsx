@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
@@ -9,16 +9,31 @@ import arrowIcon from '../../assets/chevrons-up.svg';
 import './styles.css';
 
 export function Products({ products }) {
+  const [filter, setFilter] = useState('');
+
+  function handleInput(event) {
+    setFilter(event.target.value.toLowerCase());
+  }
+
   return (
     <div>
       <Header />
       <main id='product-list'>
+        <input
+          id='filter'
+          type='text' 
+          placeholder='Pesquisar...' 
+          onChange={handleInput}
+        />
         {
-          products.map(product => (
-            <Product key={product.id} info={product} />
-          ))
+          products.filter(({ title, branding }) => (
+            (title.toLowerCase().includes(filter) ||
+            branding.toLowerCase().includes(filter)) ?
+              true :
+              false
+          )).map(product => <Product key={product.id} info={product} />)
         }
-        <a href='#main-header' id='go-up'>
+        <a href='#product-list' id='go-up'>
           <img src={arrowIcon} alt='Chevrons up' />
         </a>
       </main>
