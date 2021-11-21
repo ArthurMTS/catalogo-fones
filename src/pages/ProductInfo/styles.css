@@ -5,8 +5,8 @@
   justify-content: center;
   width: 80vw;
   min-height: 75vh;
-  margin: 20px auto;
-  gap: 10px;
+  margin: 120px auto 30px;
+  gap: 15px;
 }
 
 #product-info #product-image {
@@ -21,11 +21,24 @@
   font-size: 18px;
   font-style: italic;
   color: #222;
+  text-transform: uppercase;
 }
 
 #product-info #description {
   font-size: 20px;
   text-align: justify;
+}
+
+#product-info #colors {
+  display: flex;
+  gap: 5px;
+}
+
+#product-info #colors div {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #222;
+  background-color: red;
 }
 
 #product-info strong {
@@ -67,6 +80,6 @@
 
 @media (max-width: 720px) {
   #product-info {
-    min-height: 66vh;
+    margin: 150px auto 30px;
   }
 }

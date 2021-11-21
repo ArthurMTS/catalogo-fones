@@ -20,7 +20,9 @@ export function ProductInfo({ products }) {
         <img id='product-image' src={product.image} alt={product.title} />
         <p id='title'>{product.title}</p>
         <p id='description'>{product.description}</p>
-        <div>cores</div>
+        <div id='colors'>
+          {product.colors.map(color => <div style={{ backgroundColor: color }}></div>)}
+        </div>
         <span id='branding'>Marca: {product.branding}</span>
         <strong>R$ {product.price.toFixed(2)}</strong>
         <button onClick={() => addProduct(product)}>Add to Cart</button>
