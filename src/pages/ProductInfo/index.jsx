@@ -21,7 +21,10 @@ export function ProductInfo({ products }) {
         <p id='title'>{product.title}</p>
         <p id='description'>{product.description}</p>
         <div id='colors'>
-          {product.colors.map(color => <div style={{ backgroundColor: color }}></div>)}
+          {
+            product.colors.map((color, index) => 
+              <div key={index} style={{ backgroundColor: color }}></div>)
+          }
         </div>
         <span id='branding'>Marca: {product.branding}</span>
         <strong>R$ {product.price.toFixed(2)}</strong>

@@ -28,7 +28,7 @@ export function Home() {
             <li>Consoles de videogames da nova geração – Wii U, PlayStation 3 e 4, Xbox One S e Xbox One X usam Bluetooth para seus respectivos controles sem fio;</li>
             <li>E outras mais.</li>
           </ul>
-          <span>Para saber mais acesse <a href='https://pt.wikipedia.org/wiki/Bluetooth' target='_blank' rel='noreferrer'>Bluetooth</a>.</span>
+          <span>Para saber mais clique em <a href='https://pt.wikipedia.org/wiki/Bluetooth' target='_blank' rel='noreferrer'>Bluetooth</a>.</span>
         </section>
       </main>
       <Footer />
