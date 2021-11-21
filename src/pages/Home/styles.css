@@ -21,21 +21,8 @@
 }
 
 #info a {
-  background-color: #1788bd;
-  font-size: 18px;
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 30px;
-  transition: all .2s;
-  filter: brightness(.9);
-}
-
-#info a:hover {
-  filter: brightness(1.1);
 }
 
 #sobre {

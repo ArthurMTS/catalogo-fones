@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
+import { Button } from '../../components/Button';
 
 import { CartContext } from '../../contexts/cart';
 
@@ -37,7 +38,7 @@ export function Cart() {
         </ul>
         <div id='total'>
           <p><strong>Total:</strong> R$ {cart.reduce((total, product) => total + (product.price * product.quantity), 0).toFixed(2)}</p>
-          <button>Finalizar Compra</button>
+          <Button>Finalizar Compra</Button>
         </div>
       </main>
       <Footer />

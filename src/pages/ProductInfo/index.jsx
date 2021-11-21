@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
+import { Button } from '../../components/Button';
 
 import { CartContext } from '../../contexts/cart';
 
@@ -28,7 +29,7 @@ export function ProductInfo({ products }) {
         </div>
         <span id='branding'>Marca: {product.branding}</span>
         <strong>R$ {product.price.toFixed(2)}</strong>
-        <button onClick={() => addProduct(product)}>Add to Cart</button>
+        <Button onClick={() => addProduct(product)}>Adicionar ao carrinho</Button>
       </main>
       <Footer />
     </div>

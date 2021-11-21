@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
+import { Button } from '../../components/Button';
 
 import './styles.css';
 
@@ -14,7 +15,7 @@ export function Home() {
         <section id='info'>
           <h2>BlueFones</h2>
           <p>Encontre o fone bluetooth certo para as suas necessidades.</p>
-          <Link to='/products'>Olhar produtos agora</Link>
+          <Link to='/products'><Button>Olhar produtos agora</Button></Link>
         </section>
         <section id='sobre'>
           <h2>Sobre a tecnologia</h2>

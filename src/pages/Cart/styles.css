@@ -103,22 +103,6 @@
   font-size: 22px;
 }
 
-#total button {
-  cursor: pointer;
-  padding: 10px;
-  font-size: 18px;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  transition: all .2s;
-  margin-bottom: 20px;
-}
-
-#total button:hover {
-  background-color: #1788bd;
-}
-
 @media(min-width: 950px) {
   #list li {
     width: 70vw;
