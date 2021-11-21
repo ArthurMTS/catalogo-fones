@@ -20,7 +20,7 @@ export function Header() {
         <ul>
           <li className='nav-link'><Link to='/'>Início</Link></li>
           <li className='nav-link'><Link to='/products'>Produtos</Link></li>
-          <li id='cart' className='nav-link'><Link to='/cart'><img src={shoppingCart} alt='cart icon'/>{cart.length}</Link></li>
+          <li id='cart' className='nav-link'><Link to='/cart'><img src={shoppingCart} alt='cart icon'/>{cart.reduce((total, product) => Number(product.quantity) + total, 0)}</Link></li>
         </ul>
       </nav>
     </header>

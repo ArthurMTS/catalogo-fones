@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 81.5vh;
+  min-height: 78.9vh;
+  margin-top: 80px;
 }
 
 #cart-page h2 {
@@ -132,6 +133,6 @@
 
 @media (max-width: 720px) {
   #cart-page {
-    min-height: 72.5vh;
+    margin-top: 120px;
   }
 }
