@@ -11,12 +11,12 @@ import './styles.css';
 export function Products({ products }) {
   const [filter, setFilter] = useState('');
 
-  function handleInput(event) {
-    setFilter(event.target.value.toLowerCase());
+  function handleInput({ target: { value } }) {
+    setFilter(value.toLowerCase());
   }
 
   return (
-    <div>
+    <>
       <Header />
       <main id='product-list'>
         <input
@@ -31,13 +31,15 @@ export function Products({ products }) {
             branding.toLowerCase().includes(filter)) ?
               true :
               false
-          )).map(product => <Product key={product.id} info={product} />)
+          )).map(product =>
+            <Product key={product.id} info={product} />
+          )
         }
         <a href='#product-list' id='go-up'>
           <img src={arrowIcon} alt='Chevrons up' />
         </a>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

@@ -5,6 +5,7 @@ import { CartContext } from '../../contexts/cart';
 
 import headPhone from '../../assets/headphones.svg';
 import shoppingCart from '../../assets/shopping-cart.svg';
+
 import './styles.css';
 
 export function Header() {
@@ -18,9 +19,18 @@ export function Header() {
       </Link>
       <nav id='navbar'>
         <ul>
-          <li className='nav-link'><Link to='/'>Início</Link></li>
-          <li className='nav-link'><Link to='/products'>Produtos</Link></li>
-          <li id='cart' className='nav-link'><Link to='/cart'><img src={shoppingCart} alt='cart icon'/>{cart.reduce((total, product) => Number(product.quantity) + total, 0)}</Link></li>
+          <li className='nav-link'>
+            <Link to='/'>Início</Link>
+          </li>
+          <li className='nav-link'>
+            <Link to='/products'>Produtos</Link>
+          </li>
+          <li id='cart' className='nav-link'>
+            <Link to='/cart'>
+              <img src={shoppingCart} alt='cart icon'/>
+              {cart.reduce((total, product) => Number(product.quantity) + total, 0)}
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

@@ -12,11 +12,17 @@ export function Product({ info }) {
 
   return (
     <div className='product'>
-      <Link to={'/products/' + info.id}><img src={info.image} alt={info.title} /></Link>
+      <Link to={'/products/' + info.id}>
+        <img src={info.image} alt={info.title} />
+      </Link>
       <div className='info'>
         <Link to={'/products/' + info.id}>{info.title}</Link>
         <strong>R$ {info.price.toFixed(2)}</strong>
-        <Button onClick={() => addProduct(info)} >Adicionar ao carrinho</Button>
+        <Button
+          onClick={() => addProduct(info)}
+        >
+          Adicionar ao carrinho
+        </Button>
       </div>
     </div>
   );

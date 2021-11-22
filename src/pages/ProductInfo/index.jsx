@@ -12,10 +12,11 @@ import './styles.css';
 export function ProductInfo({ products }) {
   const { id } = useParams();
   const [ product ] = products.filter(product => product.id === Number(id));
+
   const { addProduct } = useContext(CartContext);
 
   return (
-    <div>
+    <>
       <Header />
       <main id='product-info'>
         <img id='product-image' src={product.image} alt={product.title} />
@@ -32,6 +33,6 @@ export function ProductInfo({ products }) {
         <Button onClick={() => addProduct(product)}>Adicionar ao carrinho</Button>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

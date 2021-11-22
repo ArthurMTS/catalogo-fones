@@ -15,14 +15,13 @@ export function CartProvider({ children }) {
     if (cart.length > 0) localStorage.setItem('cart', JSON.stringify(cart));
   }, [cart]);
 
-  function addProduct(product) {
+  function addProduct(newProduct) {
     const products = [...cart];
 
-    if (products.some(prod => prod.id === product.id)) return;
+    if (products.some(product => product.id === newProduct.id)) return;
 
-    product.quantity = 1;
-
-    products.push(product);
+    newProduct.quantity = 1;
+    products.push(newProduct);
 
     setCart(products);
   }
